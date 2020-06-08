@@ -1,0 +1,32 @@
+.addUser-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addUser-container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.addUser-container input{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.addUser-container select{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.addUser-container button{
+    width: 200px;
+    height: 40px;
+    background: #2EC14F;
+    border : none;
+    cursor : pointer;
+    color : #ffffff;
+    font-size: 16px;
+}

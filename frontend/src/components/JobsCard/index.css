@@ -1,0 +1,35 @@
+.main-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.jobs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: flex-start;
+    width: 300px;
+    height: 100px;
+    background: #82a0aa;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jobs-container img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+}
+
+.jobs-container span{
+    color: #ffffff;
+}
+
+.jobs-container p{
+    color: #ffffff;
+}

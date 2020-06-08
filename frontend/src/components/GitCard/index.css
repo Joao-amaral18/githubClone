@@ -1,0 +1,45 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.main-container .card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 500px;
+    height: 100px;
+    background: #f5f5f5;
+}
+
+.main-container .card #avatar{
+    width: 80px;
+    height: 80px;
+    background: rgb(62, 62, 215);
+}
+
+.main-container .card #info{
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.main-container .card #info span{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.main-container .card #info p{
+    font-size: 12px;
+    color : #a9a4a4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container a{
+    text-decoration: none;
+}

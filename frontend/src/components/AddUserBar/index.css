@@ -1,0 +1,30 @@
+.addUserBar-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 700px;
+    margin-left: 10px;
+}
+
+.addUserBar-container button{
+    background: #2AB44A;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 3px;
+    width: 70px;
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+.addUserBar-container p{
+    color : #888888;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.addUserBar-container span{
+    margin-bottom: 10px;
+}
